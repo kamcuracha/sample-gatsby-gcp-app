@@ -5,7 +5,7 @@ import "../styles/styles.scss"
 // import "normalize.css"
 
 const IndexPage = () => (
-  <p>Home</p>
+  <p>Home Page</p>
 )
 
 export default IndexPage
