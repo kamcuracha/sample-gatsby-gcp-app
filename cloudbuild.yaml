@@ -10,4 +10,4 @@ steps:
     args: ["build"]
   - name: "node:10.15.1"
     entrypoint: "./node_modules/.bin/firebase"
-    args: ["deploy", "--project", "sample-gatsby-firebase", "--token", "1//0eYR__kee76_4CgYIARAAGA4SNwF-L9IrJrRhlQzQeTGVVaHaKJjlq_iKH4QzWGjUtMQtuCaFg72Q4_Ani6QfEIqYumLLtOt0cOk"]
+    args: ["deploy", "--project", "sample-gatsby-firebase", "--token", "$_TOKEN"]

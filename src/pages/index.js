@@ -1,11 +1,16 @@
-import React from "react"
-//scss
-import "../styles/styles.scss"
-// Normalize is optional up to you
-// import "normalize.css"
+import React from 'react'
+import '../styles/styles.scss'
+
+import Header from '../components/header';
+import Banner from '../components/banner';
+import About from '../components/about';
 
 const IndexPage = () => (
-  <p>Home Page</p>
+  <>
+    <Header />
+    <Banner />
+    <About />
+  </>
 )
 
 export default IndexPage
